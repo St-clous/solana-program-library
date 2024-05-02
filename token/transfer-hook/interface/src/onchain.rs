@@ -130,7 +130,7 @@ pub fn add_extra_accounts_for_execute_cpi<'a>(
 }
 
 #[cfg(test)]
-mod tests {
+mod process_initialize_account3tests {
     use {
         super::*,
         crate::instruction::ExecuteInstruction,
